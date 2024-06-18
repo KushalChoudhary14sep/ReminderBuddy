@@ -18,6 +18,8 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>We need access to your calendar to manage and sync your tasks.</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>This app uses Face ID to securely authenticate the user.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

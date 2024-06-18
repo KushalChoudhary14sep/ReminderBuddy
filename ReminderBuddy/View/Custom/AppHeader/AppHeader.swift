@@ -2,7 +2,7 @@
 //  AppHeader.swift
 //  ReminderBuddy
 //
-//  Created by Kaushal Chaudhary on 16/06/24.
+//  Created by Kushal Chaudhary on 16/06/24.
 //
 
 import Foundation

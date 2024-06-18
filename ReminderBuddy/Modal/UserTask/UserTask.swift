@@ -2,7 +2,7 @@
 //  UserEntity.swift
 //  ReminderBuddy
 //
-//  Created by Kaushal Chaudhary on 16/06/24.
+//  Created by Kushal Chaudhary on 16/06/24.
 //
 
 import Foundation
@@ -20,8 +20,9 @@ class UserTask {
     var location: CLLocation?
     var address: String?
     var reminder: Bool
-    
-    init(id: String, title: String, description: String, dueDate: Date, priority: Priority, createdDate: Date, state: State, location: CLLocation?, address: String?, reminder: Bool) {
+    var calendarEventIdentifier: String?
+
+    init(id: String, title: String, description: String, dueDate: Date, priority: Priority, createdDate: Date, state: State, location: CLLocation?, address: String?, reminder: Bool, calendarEventIdentifier: String? = nil) {
         self.id = id
         self.title = title
         self.description = description
@@ -32,6 +33,7 @@ class UserTask {
         self.location = location
         self.address = address
         self.reminder = reminder
+        self.calendarEventIdentifier = calendarEventIdentifier
     }
     
     enum Priority: String, CaseIterable {

@@ -2,7 +2,7 @@
 //  TaskManager.swift
 //  ReminderBuddy
 //
-//  Created by Kaushal Chaudhary on 16/06/24.
+//  Created by Kushal Chaudhary on 16/06/24.
 //
 
 import Foundation
@@ -47,13 +47,16 @@ class TaskManager {
         }
     }
     
-    func addTask(taskID: String?, title: String, description: String, dueDate: Date, priority: UserTask.Priority, location: CLLocation?, address: String?, reminder: Bool, state: UserTask.State, completion:  @escaping (() -> Void)) {
+    func addTask(taskID: String?, title: String, description: String, dueDate: Date, priority: UserTask.Priority, location: CLLocation?, address: String?, reminder: Bool, state: UserTask.State, completion: @escaping (() -> Void)) {
         guard let currentUser = UserManager.shared.currentUser else { return }
         let newTask = UserTask(id: taskID ?? UUID().uuidString, title: title, description: description, dueDate: dueDate, priority: priority, createdDate: Date(), state: state, location: location, address: address, reminder: reminder)
         CoreDataManager.shared.saveTask(newTask, forUser: currentUser)
+        
         if newTask.reminder {
             scheduleNotification(for: newTask)
         }
+        
+        CalendarManager.shared.addEvent(for: newTask)
         completion()
     }
     
@@ -72,18 +75,17 @@ class TaskManager {
             if updatedTask.reminder {
                 scheduleNotification(for: updatedTask)
             }
+            CalendarManager.shared.updateEvent(for: updatedTask)
             completion()
         }
     }
     
     func removeTask(withId id: String, completion: @escaping (() -> Void)) {
-        guard UserManager.shared.currentUser != nil else { 
-            return
-        }
+        guard let task = getTask(withId: id) else { return }
+        CalendarManager.shared.deleteEvent(for: task)
         CoreDataManager.shared.deleteTask(byId: id)
         completion()
     }
-    
     
     func scheduleNotification(for task: UserTask) {
         let content = UNMutableNotificationContent()

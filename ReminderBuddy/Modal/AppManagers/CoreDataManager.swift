@@ -2,7 +2,7 @@
 //  CoreDataManager.swift
 //  ReminderBuddy
 //
-//  Created by Kaushal Chaudhary on 16/06/24.
+//  Created by Kushal Chaudhary on 16/06/24.
 //
 
 import Foundation
@@ -85,6 +85,7 @@ class CoreDataManager {
             existingTask.user = user
             existingTask.reminder = task.reminder
             existingTask.address = task.address
+            existingTask.calendarEventIdentifier = task.calendarEventIdentifier
             if let location = task.location {
                 existingTask.latitude = location.coordinate.latitude
                 existingTask.longitude = location.coordinate.longitude
@@ -104,6 +105,7 @@ class CoreDataManager {
             newTask.user = user
             newTask.address = task.address
             newTask.reminder = task.reminder
+            newTask.calendarEventIdentifier = task.calendarEventIdentifier
             if let location = task.location {
                 newTask.latitude = location.coordinate.latitude
                 newTask.longitude = location.coordinate.longitude
@@ -150,7 +152,8 @@ class CoreDataManager {
                                 state: state,
                                 location: location,
                                 address: entity.address,
-                                reminder: entity.reminder
+                                reminder: entity.reminder,
+                                calendarEventIdentifier: entity.calendarEventIdentifier
                 )
             }
         } catch {
@@ -182,6 +185,9 @@ class CoreDataManager {
         if context.hasChanges {
             do {
                 try context.save()
+                if let user = UserManager.shared.currentUser {
+                    print(fetchTasks(forUser: user))
+                }
             } catch {
                 let nserror = error as NSError
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")

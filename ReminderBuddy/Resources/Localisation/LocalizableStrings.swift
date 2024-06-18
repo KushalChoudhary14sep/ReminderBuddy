@@ -112,7 +112,7 @@ internal enum Local {
     /// Localizable.strings
     ///   ReminderBuddy
     /// 
-    ///   Created by Kaushal Chaudhary on 15/06/24.
+    ///   Created by Kushal Chaudhary on 15/06/24.
     internal static let home = Local.tr("Localizable", "Tabbar.Home", fallback: "Home")
     /// Settings
     internal static let settings = Local.tr("Localizable", "Tabbar.Settings", fallback: "Settings")

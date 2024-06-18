@@ -2,7 +2,7 @@
 //  ReminderBuddyUITestsLaunchTests.swift
 //  ReminderBuddyUITests
 //
-//  Created by Kaushal Chaudhary on 15/06/24.
+//  Created by Kushal Chaudhary on 15/06/24.
 //
 
 import XCTest

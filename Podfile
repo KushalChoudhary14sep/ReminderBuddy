@@ -8,6 +8,7 @@ target 'ReminderBuddy' do
   pod 'FirebaseCrashlytics'
   pod 'FirebasePerformance'
   pod 'Charts'
+  pod 'IQKeyboardManager'
   target 'ReminderBuddyTests' do
     # Pods for testing
   end

@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  ReminderBuddy
+
+  Created by Kaushal Chaudhary on 15/06/24.
+  
+*/
+// Tabbar
+"Tabbar.Home" = "Home";
+"Tabbar.Dashboard" = "Dashboard";
+"Tabbar.Settings" = "Settings";
+
+// Login
+
+"Login.Title" = "Log In";
+"Login.SignupButton.Title" = "Sign up";
+"Login.NoAccount.Title" = "Don’t have an account yet?";
+"Login.Failiure.Error" = "Please check your login credentials";
+"Login.HeyThere.Title" = "Hey there!";
+"Login.LoginToProceed.Title" = "Please login to proceed";
+
+// Enrollment
+"Enrollment.EmailIDPlaceholder" = "Email";
+"Enrollment.PasswordPlaceholder" = "Password";
+"Enrollment.FirstNamePlaceholder" = "First Name";
+"Enrollment.LastNamePlaceholder" = "Last Name";
+"Enrollment.ContinueButton.Title" = "Continue";
+"Enrollment.Or.Title" = "OR";
+"Enrollment.ValidEmail.Error" = "Please enter valid email.";
+"Enrollment.ValidEmailDigitCount.Error" = "Minimum 3 letters required.";
+"Enrollment.ValidPassword.Error" = "Please enter valid password. Password must contain at least one digit, one uppercase letter, and one special character.";
+"Enrollment.ValidPasswordDigitCountError" = "Minimum 8 character required.";
+"Enrollment.Passwordfailiure.Error" = "Please check your password.";
+"Enrollment.Emailfailiure.Error" = "Please check your email.";
+"Enrollment.AlreadyRegisteredFailiure.Error" = "Accout already exists.";
+"Enrollment.ValidConfirmPassword.Error" = "Confirm Password must be same as Password";
+
+// Signup
+
+"Signup.Title" = "Sign Up";
+"Signup.ConfirmPasswordPlaceholder" = "Confirm Password";
+"Signup.PleaseSsignupToProceed.Title" = "Please signup to proceed";
+"Signup.ExistingAccount.Title" = "Already have an account?";
+"Signup.LoginButton.Title" = "Log in";
+
+// Error
+"UnknownFailiure.Error" = "Something went wrong.";
+
+// Home
+"Home.TaskList.Placeholder" = "No tasks yet. Create one and Add reminders!";

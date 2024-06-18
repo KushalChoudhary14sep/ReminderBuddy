@@ -1,0 +1,52 @@
+name: ReminderBuddy
+options:
+  bundleIdPrefix: "com.lenscorp.ReminderBuddy"
+  developmentRegion: en
+targets:
+  ReminderBuddy:
+    postBuildScripts:
+      - script: |
+          cd $SRCROOT
+          echo "POST BUILT SCRIPT"
+          $PODS_ROOT/FirebaseCrashlytics/run
+          /opt/homebrew/bin/swiftgen
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - ReminderBuddy
+    settings:
+      base:
+        PRODUCT_NAME: ReminderBuddy
+        LAUNCH_SCREEN_STORYBOARD_NAME: Splash.storyboard
+        PRODUCT_BUNDLE_IDENTIFIER: "com.lenscorp.ReminderBuddy"
+
+  ReminderBuddyTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - ReminderBuddyTests
+    dependencies:
+      - target: ReminderBuddy
+    settings:
+      base:
+        PRODUCT_NAME: ReminderBuddyTests
+        PRODUCT_BUNDLE_IDENTIFIER: "com.lenscorp.ReminderBuddyTests"
+
+  ReminderBuddyUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - ReminderBuddyUITests
+    dependencies:
+      - target: ReminderBuddy
+    settings:
+      base:
+        PRODUCT_NAME: ReminderBuddyUITests
+        PRODUCT_BUNDLE_IDENTIFIER: "com.lenscorp.ReminderBuddyUITests"
+
+settings:
+  base:
+    PRODUCT_NAME: ReminderBuddy
+    LAUNCH_SCREEN_STORYBOARD_NAME: Splash.storyboard
+    PRODUCT_BUNDLE_IDENTIFIER: "com.lenscorp.ReminderBuddy"

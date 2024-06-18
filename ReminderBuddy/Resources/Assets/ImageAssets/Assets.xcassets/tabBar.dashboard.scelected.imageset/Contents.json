@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tabBar.dashboard.scelected.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

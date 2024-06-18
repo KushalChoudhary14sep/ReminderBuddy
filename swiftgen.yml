@@ -1,0 +1,16 @@
+xcassets:
+  inputs:
+    - ".//ReminderBuddy/Resources/Assets/ColorAssets/ColorAssets.xcassets"
+    - ".//ReminderBuddy/Resources/Assets/ImageAssets/Assets.xcassets"
+  outputs:
+    - templateName: swift5
+      output: ReminderBuddy/Resources/AssetEnum.swift
+
+strings:
+  inputs:
+    - .//ReminderBuddy/Resources/Localisation/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: ReminderBuddy/Resources/Localisation/LocalizableStrings.swift
+      params:
+        enumName: Local

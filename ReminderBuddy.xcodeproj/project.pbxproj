@@ -1,0 +1,1451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F8F8FA6DB433E6AACEE85B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D333CA049ACC9D5F2AFE7302 /* Poppins-Medium.ttf */; };
+		0117C552869C4D5D6B97CE30 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD29D2A46FA87040EE0F4E /* TaskManager.swift */; };
+		0C6C3491972544E6794865AE /* ReminderBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9356ED9A58D17A4D418C9 /* ReminderBuddyTests.swift */; };
+		160283BD6569D5D1183E9552 /* HomeUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280F2523573F91543AF5294F /* HomeUIController.swift */; };
+		1B307EFEBD29D2C974B2C6C0 /* PrefixOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E36014F3F5001A442B1F1E /* PrefixOperator.swift */; };
+		236DA987991D56DA86739CAF /* TextFieldInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436B7C52E77B8E4E5CB5EF3 /* TextFieldInputValidator.swift */; };
+		254FDC9CE4CBCBE19F8EA744 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E1DE0CC85A58B87750998 /* HomeViewController.swift */; };
+		2A2B5EABA8A00BAD2924919A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDA3C95070A49099C9C956 /* UIView+Extension.swift */; };
+		315828EBFA1E2576DB814C26 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A204DB8441C86D63DD6338 /* SignupViewController.swift */; };
+		320750438FE4304802440BE8 /* TaskDetailTitleAndDescpCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABFEA76F9609F3A8205221 /* TaskDetailTitleAndDescpCVC.swift */; };
+		33FBA4A30ED9C0F2B4CFF1AC /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA5FF1E988C69B4B5D02A1 /* LocalizableStrings.swift */; };
+		3681015AB8ADD231282800DE /* HapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAC8494EE02E0BBEB8BB7 /* HapticEngine.swift */; };
+		39C8FDA61C15EEB0729210F7 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAA16C26C509C706EEF280 /* UICollectionView+Extension.swift */; };
+		3D6A3F76986857E9F5A73761 /* ReminderBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C41A553D6664FB7723AAF /* ReminderBuddyUITests.swift */; };
+		3FCA0C5C6AEAF8147E7E259B /* TaskDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14218DED1A289FABBE71C68 /* TaskDetailViewModel.swift */; };
+		40C346AB4125B7CB858EE7DB /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1132FDD12BC11ABE7FBB821 /* Poppins-ExtraBold.ttf */; };
+		416DA853B92087DFF5325289 /* AppButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75EBE6F9D333F3ACB410D0 /* AppButtons.swift */; };
+		422B7CD4E4ECDA9523F15D7A /* Pods_ReminderBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132E5D0E7CCED1F99A880A6B /* Pods_ReminderBuddy.framework */; };
+		42436E5AA73165373D456D8E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902D908AC069080A19BC7B7 /* LoginViewController.swift */; };
+		431E0244191B9CF1DD1B8C31 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A262A3F619129B13A2B670 /* AddTaskViewController.swift */; };
+		43656872A672C982EC32860B /* ReminderBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC4986C186D46111DE2B2B /* ReminderBuddyUITestsLaunchTests.swift */; };
+		485327C7E9C8672396F39B30 /* AppPrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E6C59C2AE22847C00FC77 /* AppPrimaryTextField.swift */; };
+		4B3D27F21E6A168A629C1909 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F069466856C662434250E33C /* SplashViewController.swift */; };
+		4FF2069851F0460E397C22F7 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55B14B806F5F607434CB473E /* Poppins-SemiBold.ttf */; };
+		51603387ED00883805FF0143 /* AddTaskTitleAndDescriptionCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D787B9D2E40BC9B78F9BED52 /* AddTaskTitleAndDescriptionCVC.swift */; };
+		5173FF81F2ED28FB70AB23E5 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A544A3F8EB495CD415227 /* UserManager.swift */; };
+		53B6FE49D0CD65EC74775FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3513635B0FC28872C1A394A6 /* Assets.xcassets */; };
+		5493BED04A25F42606C46197 /* PushNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0816A6E9888FB9FBB8A6AFE5 /* PushNotificationDelegate.swift */; };
+		58B0BDE35E922FAE8EEA168A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6A395EA16B11F5002306C /* CoreDataManager.swift */; };
+		595D97A1B4FAC1C0AC13E854 /* DashboardUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92495E665ED77A9ACC3F6B /* DashboardUIController.swift */; };
+		5D5FDCDCD89227C0C58E2493 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A417D625FFC04A1E4D4EB4 /* DashboardViewController.swift */; };
+		6163B7B5A5C35C5CCC965411 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA16444BC975A0242E79695 /* Date+Extension.swift */; };
+		62A6E18CCB0C24A01BB047DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E520631F532FEDE4A1ACD64C /* LaunchScreen.storyboard */; };
+		68C087357B6FEBDF9B1F82A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A83C36FF27FCCE2495889F0 /* Localizable.strings */; };
+		6A710489FD32B0FD969A79B4 /* AddStateCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1661B7FF000BB84C1582A0 /* AddStateCVC.swift */; };
+		6B40800636892519016B0F32 /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7687280716559EA54BA6DE53 /* AddTaskViewModel.swift */; };
+		6CEB673AB76BFD4B8A80C770 /* FloatingAddTaskButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D5B280BA9237BD35C9460 /* FloatingAddTaskButton.swift */; };
+		6D7ED7656325EB97A45D9C4D /* TaskDetailUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937C629DF369AD65A8E8E67A /* TaskDetailUIController.swift */; };
+		754BE57348A9BEC1180242FC /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228A79811FE35F106BCE448 /* UserDefault.swift */; };
+		769DC11C699DD064AE9A0491 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC438050C902F5EB01F7882 /* TabItemView.swift */; };
+		79A282AAA8B848D934627E14 /* UserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3398C238DE4694270B69694E /* UserTask.swift */; };
+		7E7BCAD9452666AA2762AA47 /* AppNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F806AC3E9954678DB42AC958 /* AppNavigationDelegate.swift */; };
+		8156F72551E9CA92978FC391 /* Pods_ReminderBuddy_ReminderBuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0A2E7AE1320EF968269DBF /* Pods_ReminderBuddy_ReminderBuddyTests.framework */; };
+		84E9F2FBC1F5E151962A5ABD /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7891FB1082A43185F05D3537 /* Poppins-Black.ttf */; };
+		8A027D629AC49A7DBB9DC8B7 /* SplashUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA0F606FCC6C7F07CB0C9CA /* SplashUIController.swift */; };
+		8B6297DC17664CA9D4952DD2 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81581293B83F3A27A3BDB786 /* TaskDetailViewController.swift */; };
+		91BB4D35159BF9B19E4233EC /* TaskDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A220551C1C5C6509AFBF12E /* TaskDetailBottomView.swift */; };
+		94F571EAD1C7F7EC8CFA256E /* CoreDataEntity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 739061E4EEBB2EA75C7E9C0C /* CoreDataEntity.xcdatamodeld */; };
+		9573A0E466D9412D4F454A7F /* AddTaskDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85CDFA535F15848102FC85D /* AddTaskDataSource.swift */; };
+		964A866B279D0C1D76D80879 /* Pods_ReminderBuddy_ReminderBuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A1EB01D00C3C0104C1F7C3 /* Pods_ReminderBuddy_ReminderBuddyUITests.framework */; };
+		9A0EF67515A0244B89B11A24 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144A9D18AE7DB7B372300712 /* NotificationView.swift */; };
+		9A522EDE4D4D108B62A463C0 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CE11D785E934767A05391 /* UIButton+Extension.swift */; };
+		9AB2CAB2E3DA401505C6E12E /* AppCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138A32A9C62DC2A3F40F2AE /* AppCollectionView.swift */; };
+		9EDF8A15B8C516606B272A82 /* TaskListPlacheholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F187FE8CC4EA72640CCFB17 /* TaskListPlacheholder.swift */; };
+		A7063654FB90E04F53BC81F5 /* UIPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E13261F06BA0509A6CECC1C /* UIPlaceholderTextView.swift */; };
+		A74D01BB88CAE14F5119F594 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA280250DEC166BDCE6D6642 /* DashboardViewModel.swift */; };
+		A8E42562A3F56E77E4814BAF /* AddDateCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1DDA682F6618EF9E17FB03 /* AddDateCVC.swift */; };
+		A9D840FB77251A98A6AE71C4 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C542EB342482C80FF9828B0B /* Poppins-Regular.ttf */; };
+		A9FD0C6D7BBEB5F2F31B547D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E21D7D6D5FDD39AF06CC5E /* TabBarView.swift */; };
+		B38DEDB124B04E0F5618273E /* AddTaskUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074217CBEBA94B72766F29AD /* AddTaskUIController.swift */; };
+		BE14D61E9BBA851EC3DAA371 /* TaskDetailDataosurce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9FEC200685D57FAE98B7C /* TaskDetailDataosurce.swift */; };
+		C010ABC7EAAC445E9074C738 /* AppHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA310A1222A79190B0CC3C3B /* AppHeader.swift */; };
+		C034EC5C40DF3FF45DAD64B5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1D94C0983012D530DE82F /* SettingsViewController.swift */; };
+		C26DBE9C674EE59FF8875816 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1F12B8B734DD8DB72473 /* LoginViewModel.swift */; };
+		C33A839AC2227FA60FDEA536 /* Paginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555B2C7D1A93E5DB04A7A5D /* Paginator.swift */; };
+		C70ACE99598D79E40B013860 /* DashboardTaskStatusCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC1B296489DC7769606565 /* DashboardTaskStatusCVC.swift */; };
+		CA1350A8AE7F4CDB5E9CDF78 /* EnrollemntManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5167412B24302A32DA78FC3 /* EnrollemntManager.swift */; };
+		CAD9666E2CC80FE77A42793F /* DashboardDatasoucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF30F76020E286F5C1ECEB /* DashboardDatasoucre.swift */; };
+		CAE1A8C8A259EE5B36C41E3C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADE71F4A11C0B44C297E510A /* Poppins-Bold.ttf */; };
+		CD104C46DCFA9C8768092ACE /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F935CCBE3343769549F25 /* UIFont+Extension.swift */; };
+		D0A0D3C12B8817D37BAB2139 /* AssetEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A6A82BEA84C9FB34EEAA66 /* AssetEnum.swift */; };
+		D17BC7014B0619997DED0472 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7209E60F2C301C4DBC81B87F /* HomeDataSource.swift */; };
+		D3269D6994D2ACD0C97F5137 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE622EB5B20B19B0BFE294B /* MapViewController.swift */; };
+		D59C96518C2F9CF327F62AE2 /* AddPriorityCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181D330E67DDBAC6FB9D77E /* AddPriorityCVC.swift */; };
+		DA44CEE3F7C59534A452B9D3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEAFBFF58349BBC1D93E1C /* TabBarController.swift */; };
+		E340944027974B57EC496AE8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CB4B505449A0E8F9FB2108 /* HomeViewModel.swift */; };
+		E74D6DE3EF2564A4DA2EF62E /* ErrorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DA365F43603B1BDA26F866 /* ErrorDisplay.swift */; };
+		EB0D35D9ADAFCFC4AE8DD329 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349596192C1B751837A9D3C0 /* ColorAssets.xcassets */; };
+		EB60965889663CEF6E3ABF37 /* SplashImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF5CDEA01D9670D1D1413F /* SplashImageView.swift */; };
+		EBE2C86B4DD2E5E3B41A21AB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F978D014A8989F94C5F0FA15 /* String+Extension.swift */; };
+		F96C3E58C43627742D6B5C3F /* SiignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5A7E4C48B96789CBEA6E3 /* SiignupViewModel.swift */; };
+		F9CBCC231D8617B6244CE071 /* AddTaskBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22043A24F8C45467071D500 /* AddTaskBottomView.swift */; };
+		FAA4E92E03D38F401E321DCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D1D3CC00EA52572CD6C1159 /* GoogleService-Info.plist */; };
+		FBEBD5A61DE5E7143B36B031 /* TaskListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD619D017CAE0A5360F4000A /* TaskListCVC.swift */; };
+		FD3DEBA050A389AC570D67CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F740489463428A0583D17A /* AppDelegate.swift */; };
+		FDFA22F94CD8611756B5D970 /* AddLocationCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5E51887508437C89B3076 /* AddLocationCVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42DA027556E1A2DA85746E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F6E791E2FF8A83D65FCBB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 698FDD2D95ED87FC74FF3D80;
+			remoteInfo = ReminderBuddy;
+		};
+		D4DDC4CF30912CBD3A62940F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F6E791E2FF8A83D65FCBB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 698FDD2D95ED87FC74FF3D80;
+			remoteInfo = ReminderBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057834BC558AA46E98CC58A2 /* ReminderBuddyUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ReminderBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074217CBEBA94B72766F29AD /* AddTaskUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskUIController.swift; sourceTree = "<group>"; };
+		0816A6E9888FB9FBB8A6AFE5 /* PushNotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationDelegate.swift; sourceTree = "<group>"; };
+		0AC438050C902F5EB01F7882 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		0DA6F0BBC8E3F1543390030C /* Pods-ReminderBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderBuddy.release.xcconfig"; path = "Target Support Files/Pods-ReminderBuddy/Pods-ReminderBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		0DAF30F76020E286F5C1ECEB /* DashboardDatasoucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDatasoucre.swift; sourceTree = "<group>"; };
+		0DF0C821B11570F263243122 /* Pods-ReminderBuddy-ReminderBuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderBuddy-ReminderBuddyTests.debug.xcconfig"; path = "Target Support Files/Pods-ReminderBuddy-ReminderBuddyTests/Pods-ReminderBuddy-ReminderBuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1228A79811FE35F106BCE448 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		132E5D0E7CCED1F99A880A6B /* Pods_ReminderBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		144A9D18AE7DB7B372300712 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1D1D3CC00EA52572CD6C1159 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2138A32A9C62DC2A3F40F2AE /* AppCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCollectionView.swift; sourceTree = "<group>"; };
+		26A262A3F619129B13A2B670 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		280F2523573F91543AF5294F /* HomeUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIController.swift; sourceTree = "<group>"; };
+		2902D908AC069080A19BC7B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		29BC1B296489DC7769606565 /* DashboardTaskStatusCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTaskStatusCVC.swift; sourceTree = "<group>"; };
+		2D4DDFB8245D14C7D13A1FA6 /* Pods-ReminderBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderBuddy.debug.xcconfig"; path = "Target Support Files/Pods-ReminderBuddy/Pods-ReminderBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		2DA0F606FCC6C7F07CB0C9CA /* SplashUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashUIController.swift; sourceTree = "<group>"; };
+		2F1DDA682F6618EF9E17FB03 /* AddDateCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDateCVC.swift; sourceTree = "<group>"; };
+		2FCD29D2A46FA87040EE0F4E /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		3398C238DE4694270B69694E /* UserTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTask.swift; sourceTree = "<group>"; };
+		349596192C1B751837A9D3C0 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		3513635B0FC28872C1A394A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35998BAD192ED97A413979FE /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		376F935CCBE3343769549F25 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		39ED91AA342A7DD5584AE5BD /* ReminderBuddy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ReminderBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3E6C59C2AE22847C00FC77 /* AppPrimaryTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPrimaryTextField.swift; sourceTree = "<group>"; };
+		3FC1D94C0983012D530DE82F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		41EEAFBFF58349BBC1D93E1C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		42A417D625FFC04A1E4D4EB4 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		45D9FEC200685D57FAE98B7C /* TaskDetailDataosurce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailDataosurce.swift; sourceTree = "<group>"; };
+		47D73F3F2F616256EFFAA23B /* ReminderBuddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderBuddy.xcdatamodel; sourceTree = "<group>"; };
+		4A220551C1C5C6509AFBF12E /* TaskDetailBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailBottomView.swift; sourceTree = "<group>"; };
+		4AE622EB5B20B19B0BFE294B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		55B14B806F5F607434CB473E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		57E21D7D6D5FDD39AF06CC5E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		5B1EAC8494EE02E0BBEB8BB7 /* HapticEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEngine.swift; sourceTree = "<group>"; };
+		60F6A395EA16B11F5002306C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		64A6A82BEA84C9FB34EEAA66 /* AssetEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetEnum.swift; sourceTree = "<group>"; };
+		6B0A2E7AE1320EF968269DBF /* Pods_ReminderBuddy_ReminderBuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderBuddy_ReminderBuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1661B7FF000BB84C1582A0 /* AddStateCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStateCVC.swift; sourceTree = "<group>"; };
+		7209E60F2C301C4DBC81B87F /* HomeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
+		7687280716559EA54BA6DE53 /* AddTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
+		7891FB1082A43185F05D3537 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		7BA9FECDF9ED35F4A4964369 /* Pods-ReminderBuddy-ReminderBuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderBuddy-ReminderBuddyUITests.debug.xcconfig"; path = "Target Support Files/Pods-ReminderBuddy-ReminderBuddyUITests/Pods-ReminderBuddy-ReminderBuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BEC4986C186D46111DE2B2B /* ReminderBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81581293B83F3A27A3BDB786 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		8436B7C52E77B8E4E5CB5EF3 /* TextFieldInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldInputValidator.swift; sourceTree = "<group>"; };
+		86AF5CDEA01D9670D1D1413F /* SplashImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashImageView.swift; sourceTree = "<group>"; };
+		8D3368A1F2EEDB2BFD085B22 /* Pods-ReminderBuddy-ReminderBuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderBuddy-ReminderBuddyUITests.release.xcconfig"; path = "Target Support Files/Pods-ReminderBuddy-ReminderBuddyUITests/Pods-ReminderBuddy-ReminderBuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E13261F06BA0509A6CECC1C /* UIPlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPlaceholderTextView.swift; sourceTree = "<group>"; };
+		8EEDA3C95070A49099C9C956 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		908CE11D785E934767A05391 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		937C629DF369AD65A8E8E67A /* TaskDetailUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailUIController.swift; sourceTree = "<group>"; };
+		951E1DE0CC85A58B87750998 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9BABFEA76F9609F3A8205221 /* TaskDetailTitleAndDescpCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailTitleAndDescpCVC.swift; sourceTree = "<group>"; };
+		9ECAA16C26C509C706EEF280 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		9F187FE8CC4EA72640CCFB17 /* TaskListPlacheholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListPlacheholder.swift; sourceTree = "<group>"; };
+		A0FAF4388CC86A77055916AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1132FDD12BC11ABE7FBB821 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A4C3572136F78383492A053A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AA280250DEC166BDCE6D6642 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		AC75EBE6F9D333F3ACB410D0 /* AppButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtons.swift; sourceTree = "<group>"; };
+		ADE71F4A11C0B44C297E510A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		B1A1EB01D00C3C0104C1F7C3 /* Pods_ReminderBuddy_ReminderBuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderBuddy_ReminderBuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B555B2C7D1A93E5DB04A7A5D /* Paginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paginator.swift; sourceTree = "<group>"; };
+		BBA16444BC975A0242E79695 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		BDC5A7E4C48B96789CBEA6E3 /* SiignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiignupViewModel.swift; sourceTree = "<group>"; };
+		BFA5E51887508437C89B3076 /* AddLocationCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationCVC.swift; sourceTree = "<group>"; };
+		C14218DED1A289FABBE71C68 /* TaskDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewModel.swift; sourceTree = "<group>"; };
+		C22043A24F8C45467071D500 /* AddTaskBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskBottomView.swift; sourceTree = "<group>"; };
+		C542EB342482C80FF9828B0B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C89F1F12B8B734DD8DB72473 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C8B9356ED9A58D17A4D418C9 /* ReminderBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderBuddyTests.swift; sourceTree = "<group>"; };
+		D333CA049ACC9D5F2AFE7302 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D4DA365F43603B1BDA26F866 /* ErrorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDisplay.swift; sourceTree = "<group>"; };
+		D787B9D2E40BC9B78F9BED52 /* AddTaskTitleAndDescriptionCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskTitleAndDescriptionCVC.swift; sourceTree = "<group>"; };
+		DA310A1222A79190B0CC3C3B /* AppHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeader.swift; sourceTree = "<group>"; };
+		DB2D5B280BA9237BD35C9460 /* FloatingAddTaskButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAddTaskButton.swift; sourceTree = "<group>"; };
+		DD619D017CAE0A5360F4000A /* TaskListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCVC.swift; sourceTree = "<group>"; };
+		E0CB4B505449A0E8F9FB2108 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E0F740489463428A0583D17A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1EA5FF1E988C69B4B5D02A1 /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
+		E33179BF753FA26F884BE8A3 /* ReminderBuddyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ReminderBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E36014F3F5001A442B1F1E /* PrefixOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixOperator.swift; sourceTree = "<group>"; };
+		E520631F532FEDE4A1ACD64C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E52AC81E8ADA5D03D5216BEB /* Pods-ReminderBuddy-ReminderBuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderBuddy-ReminderBuddyTests.release.xcconfig"; path = "Target Support Files/Pods-ReminderBuddy-ReminderBuddyTests/Pods-ReminderBuddy-ReminderBuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E85C41A553D6664FB7723AAF /* ReminderBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderBuddyUITests.swift; sourceTree = "<group>"; };
+		EA6A544A3F8EB495CD415227 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EF92495E665ED77A9ACC3F6B /* DashboardUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardUIController.swift; sourceTree = "<group>"; };
+		F069466856C662434250E33C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		F181D330E67DDBAC6FB9D77E /* AddPriorityCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPriorityCVC.swift; sourceTree = "<group>"; };
+		F5167412B24302A32DA78FC3 /* EnrollemntManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollemntManager.swift; sourceTree = "<group>"; };
+		F806AC3E9954678DB42AC958 /* AppNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationDelegate.swift; sourceTree = "<group>"; };
+		F85CDFA535F15848102FC85D /* AddTaskDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskDataSource.swift; sourceTree = "<group>"; };
+		F8A204DB8441C86D63DD6338 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		F978D014A8989F94C5F0FA15 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1330AABA2108B794BD1C4E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422B7CD4E4ECDA9523F15D7A /* Pods_ReminderBuddy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F8F899760114D508FACF4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964A866B279D0C1D76D80879 /* Pods_ReminderBuddy_ReminderBuddyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E7B41C2014886216BA56976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8156F72551E9CA92978FC391 /* Pods_ReminderBuddy_ReminderBuddyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021ED3A03452051FACEC5BAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2902D908AC069080A19BC7B7 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		026D819A410A37F96C5E8F4D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				41EEAFBFF58349BBC1D93E1C /* TabBarController.swift */,
+				A7567B92827B6628677CA6C3 /* TabBarView */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		03F45299AAE011E1B860D69B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8096E6F8103ADE630BFB2775 /* AppHeader */,
+				C4111509A5A4A82853BDBE05 /* Button */,
+				E4ABB38B0AB13BBE07AD320C /* FloatingAddTaskButton */,
+				7953425559D9564D2CB64386 /* NotificationView */,
+				0C22C6C0871C67D82D9B4F6A /* Textfield */,
+				46AF6C16EDC4E16FB766581F /* TextView */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		0AB1FB42C0B5783A6958412F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7891FB1082A43185F05D3537 /* Poppins-Black.ttf */,
+				ADE71F4A11C0B44C297E510A /* Poppins-Bold.ttf */,
+				A1132FDD12BC11ABE7FBB821 /* Poppins-ExtraBold.ttf */,
+				D333CA049ACC9D5F2AFE7302 /* Poppins-Medium.ttf */,
+				C542EB342482C80FF9828B0B /* Poppins-Regular.ttf */,
+				55B14B806F5F607434CB473E /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0C22C6C0871C67D82D9B4F6A /* Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				3C3E6C59C2AE22847C00FC77 /* AppPrimaryTextField.swift */,
+			);
+			path = Textfield;
+			sourceTree = "<group>";
+		};
+		0ECFF99FAED4CDC598173DC4 /* ReminderBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8B9356ED9A58D17A4D418C9 /* ReminderBuddyTests.swift */,
+			);
+			path = ReminderBuddyTests;
+			sourceTree = "<group>";
+		};
+		10A1BD1BE4A23077A0C31CF9 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				86AF5CDEA01D9670D1D1413F /* SplashImageView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		1571BAF8C0E1B57C4DA1F0DA /* TaskDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B46EC6B597ACED6339EF0B33 /* Controllers */,
+				99912B11706EAF559D8BA0A8 /* Subviews */,
+			);
+			path = TaskDetailScreen;
+			sourceTree = "<group>";
+		};
+		174A2F196103BD8431AB80C3 /* ColorAssets */ = {
+			isa = PBXGroup;
+			children = (
+				349596192C1B751837A9D3C0 /* ColorAssets.xcassets */,
+			);
+			path = ColorAssets;
+			sourceTree = "<group>";
+		};
+		204129BB94C28950506AAFD5 /* UserTask */ = {
+			isa = PBXGroup;
+			children = (
+				3398C238DE4694270B69694E /* UserTask.swift */,
+			);
+			path = UserTask;
+			sourceTree = "<group>";
+		};
+		2184B2E188E93C7533357447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF30F76020E286F5C1ECEB /* DashboardDatasoucre.swift */,
+				EF92495E665ED77A9ACC3F6B /* DashboardUIController.swift */,
+				42A417D625FFC04A1E4D4EB4 /* DashboardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2833789A4C91D26DDA7BA05F /* TaskDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C14218DED1A289FABBE71C68 /* TaskDetailViewModel.swift */,
+			);
+			path = TaskDetail;
+			sourceTree = "<group>";
+		};
+		2B1B4281B0ACCC0596B66FE6 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				F8A204DB8441C86D63DD6338 /* SignupViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		377B993763BA76028EFC4D4E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA280250DEC166BDCE6D6642 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		46AF6C16EDC4E16FB766581F /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				8E13261F06BA0509A6CECC1C /* UIPlaceholderTextView.swift */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		49466B836A63E20C8CBB8744 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				F0AB72340F1900A7FF7F56B8 /* AppManagers */,
+				204129BB94C28950506AAFD5 /* UserTask */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		543659E8D56F574E3F9C9271 /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				3513635B0FC28872C1A394A6 /* Assets.xcassets */,
+			);
+			path = ImageAssets;
+			sourceTree = "<group>";
+		};
+		584EA6C0AFB7914CEE092578 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				D8D60305AEFDA0C760007535 /* Controllers */,
+				10A1BD1BE4A23077A0C31CF9 /* Subviews */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		595D9B7E8CB9CD8F901648A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39ED91AA342A7DD5584AE5BD /* ReminderBuddy.app */,
+				E33179BF753FA26F884BE8A3 /* ReminderBuddyTests.xctest */,
+				057834BC558AA46E98CC58A2 /* ReminderBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB5BF8D77EE91F7125BFA64 /* ReminderBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				E0F740489463428A0583D17A /* AppDelegate.swift */,
+				739061E4EEBB2EA75C7E9C0C /* CoreDataEntity.xcdatamodeld */,
+				1D1D3CC00EA52572CD6C1159 /* GoogleService-Info.plist */,
+				A4C3572136F78383492A053A /* Info.plist */,
+				E520631F532FEDE4A1ACD64C /* LaunchScreen.storyboard */,
+				D0BC32C3BBC56B2CA3CBCFA6 /* DelegateClasses */,
+				49466B836A63E20C8CBB8744 /* Modal */,
+				B1A97A6FBBC41D0DCF4EC484 /* Resources */,
+				E0E108C2E5C4D0C12BA5BEE9 /* Utilities */,
+				DB41172A5AB42A13A96CBD7C /* View */,
+				829F3572847423F9398B4F42 /* ViewModel */,
+			);
+			path = ReminderBuddy;
+			sourceTree = "<group>";
+		};
+		5E36444B964A8E578B2AC705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				132E5D0E7CCED1F99A880A6B /* Pods_ReminderBuddy.framework */,
+				6B0A2E7AE1320EF968269DBF /* Pods_ReminderBuddy_ReminderBuddyTests.framework */,
+				B1A1EB01D00C3C0104C1F7C3 /* Pods_ReminderBuddy_ReminderBuddyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E5C7792344FD7C062F32280 = {
+			isa = PBXGroup;
+			children = (
+				5AB5BF8D77EE91F7125BFA64 /* ReminderBuddy */,
+				0ECFF99FAED4CDC598173DC4 /* ReminderBuddyTests */,
+				B08172DF90C62F27666CC0B2 /* ReminderBuddyUITests */,
+				595D9B7E8CB9CD8F901648A3 /* Products */,
+				C13207F0DBEEF158AF3B3E31 /* Pods */,
+				5E36444B964A8E578B2AC705 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607A502FE315DA3EE9E64542 /* Enrollment */ = {
+			isa = PBXGroup;
+			children = (
+				C89F1F12B8B734DD8DB72473 /* LoginViewModel.swift */,
+				BDC5A7E4C48B96789CBEA6E3 /* SiignupViewModel.swift */,
+			);
+			path = Enrollment;
+			sourceTree = "<group>";
+		};
+		62600B95307FA48826D5A75E /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				2F1DDA682F6618EF9E17FB03 /* AddDateCVC.swift */,
+				BFA5E51887508437C89B3076 /* AddLocationCVC.swift */,
+				F181D330E67DDBAC6FB9D77E /* AddPriorityCVC.swift */,
+				6D1661B7FF000BB84C1582A0 /* AddStateCVC.swift */,
+				C22043A24F8C45467071D500 /* AddTaskBottomView.swift */,
+				D787B9D2E40BC9B78F9BED52 /* AddTaskTitleAndDescriptionCVC.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		6CF9A2C9C1F55924289BF803 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C3741EC4549AD0629A211C2D /* Controllers */,
+				EA078A5A51C43B90974B1394 /* Subviews */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7953425559D9564D2CB64386 /* NotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				144A9D18AE7DB7B372300712 /* NotificationView.swift */,
+			);
+			path = NotificationView;
+			sourceTree = "<group>";
+		};
+		7DC4B0EA87E83E98BDD39187 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F85CDFA535F15848102FC85D /* AddTaskDataSource.swift */,
+				074217CBEBA94B72766F29AD /* AddTaskUIController.swift */,
+				26A262A3F619129B13A2B670 /* AddTaskViewController.swift */,
+				4AE622EB5B20B19B0BFE294B /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8096E6F8103ADE630BFB2775 /* AppHeader */ = {
+			isa = PBXGroup;
+			children = (
+				DA310A1222A79190B0CC3C3B /* AppHeader.swift */,
+			);
+			path = AppHeader;
+			sourceTree = "<group>";
+		};
+		829F3572847423F9398B4F42 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD6A8CBE8F19718038A58811 /* AddTask */,
+				377B993763BA76028EFC4D4E /* Dashboard */,
+				607A502FE315DA3EE9E64542 /* Enrollment */,
+				94840BF9D3C1B6FB711698B8 /* Home */,
+				2833789A4C91D26DDA7BA05F /* TaskDetail */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		91BAF24B46D356422D34BF3B /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2138A32A9C62DC2A3F40F2AE /* AppCollectionView.swift */,
+				D4DA365F43603B1BDA26F866 /* ErrorDisplay.swift */,
+				5B1EAC8494EE02E0BBEB8BB7 /* HapticEngine.swift */,
+				B555B2C7D1A93E5DB04A7A5D /* Paginator.swift */,
+				E4E36014F3F5001A442B1F1E /* PrefixOperator.swift */,
+				8436B7C52E77B8E4E5CB5EF3 /* TextFieldInputValidator.swift */,
+				1228A79811FE35F106BCE448 /* UserDefault.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		94840BF9D3C1B6FB711698B8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0CB4B505449A0E8F9FB2108 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		99251C1423DB6E076AC14372 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				29BC1B296489DC7769606565 /* DashboardTaskStatusCVC.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		99912B11706EAF559D8BA0A8 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4A220551C1C5C6509AFBF12E /* TaskDetailBottomView.swift */,
+				9BABFEA76F9609F3A8205221 /* TaskDetailTitleAndDescpCVC.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		A19A8FDD637FBF34DA548D99 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				174A2F196103BD8431AB80C3 /* ColorAssets */,
+				543659E8D56F574E3F9C9271 /* ImageAssets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A7567B92827B6628677CA6C3 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				57E21D7D6D5FDD39AF06CC5E /* TabBarView.swift */,
+				0AC438050C902F5EB01F7882 /* TabItemView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		A922C8F461E626DBC58C7A37 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2184B2E188E93C7533357447 /* Controllers */,
+				99251C1423DB6E076AC14372 /* Subviews */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AF710E9ADF1F60950910B479 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				376F935CCBE3343769549F25 /* UIFont+Extension.swift */,
+				0AB1FB42C0B5783A6958412F /* Fonts */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		AFE5B88F939A1E598C9F6D33 /* Localisation */ = {
+			isa = PBXGroup;
+			children = (
+				7A83C36FF27FCCE2495889F0 /* Localizable.strings */,
+				E1EA5FF1E988C69B4B5D02A1 /* LocalizableStrings.swift */,
+			);
+			path = Localisation;
+			sourceTree = "<group>";
+		};
+		B08172DF90C62F27666CC0B2 /* ReminderBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E85C41A553D6664FB7723AAF /* ReminderBuddyUITests.swift */,
+				7BEC4986C186D46111DE2B2B /* ReminderBuddyUITestsLaunchTests.swift */,
+			);
+			path = ReminderBuddyUITests;
+			sourceTree = "<group>";
+		};
+		B1A97A6FBBC41D0DCF4EC484 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64A6A82BEA84C9FB34EEAA66 /* AssetEnum.swift */,
+				A19A8FDD637FBF34DA548D99 /* Assets */,
+				AFE5B88F939A1E598C9F6D33 /* Localisation */,
+				AF710E9ADF1F60950910B479 /* Typography */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B243D6E6F8D4259193FD675B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BBA16444BC975A0242E79695 /* Date+Extension.swift */,
+				F978D014A8989F94C5F0FA15 /* String+Extension.swift */,
+				908CE11D785E934767A05391 /* UIButton+Extension.swift */,
+				9ECAA16C26C509C706EEF280 /* UICollectionView+Extension.swift */,
+				8EEDA3C95070A49099C9C956 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B46EC6B597ACED6339EF0B33 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45D9FEC200685D57FAE98B7C /* TaskDetailDataosurce.swift */,
+				937C629DF369AD65A8E8E67A /* TaskDetailUIController.swift */,
+				81581293B83F3A27A3BDB786 /* TaskDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C13207F0DBEEF158AF3B3E31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D4DDFB8245D14C7D13A1FA6 /* Pods-ReminderBuddy.debug.xcconfig */,
+				0DA6F0BBC8E3F1543390030C /* Pods-ReminderBuddy.release.xcconfig */,
+				0DF0C821B11570F263243122 /* Pods-ReminderBuddy-ReminderBuddyTests.debug.xcconfig */,
+				E52AC81E8ADA5D03D5216BEB /* Pods-ReminderBuddy-ReminderBuddyTests.release.xcconfig */,
+				7BA9FECDF9ED35F4A4964369 /* Pods-ReminderBuddy-ReminderBuddyUITests.debug.xcconfig */,
+				8D3368A1F2EEDB2BFD085B22 /* Pods-ReminderBuddy-ReminderBuddyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3741EC4549AD0629A211C2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7209E60F2C301C4DBC81B87F /* HomeDataSource.swift */,
+				280F2523573F91543AF5294F /* HomeUIController.swift */,
+				951E1DE0CC85A58B87750998 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C4111509A5A4A82853BDBE05 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				AC75EBE6F9D333F3ACB410D0 /* AppButtons.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		C7CFF5F08C481D1AA3C5C90B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1D94C0983012D530DE82F /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D0BC32C3BBC56B2CA3CBCFA6 /* DelegateClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F806AC3E9954678DB42AC958 /* AppNavigationDelegate.swift */,
+				0816A6E9888FB9FBB8A6AFE5 /* PushNotificationDelegate.swift */,
+			);
+			path = DelegateClasses;
+			sourceTree = "<group>";
+		};
+		D8D60305AEFDA0C760007535 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DA0F606FCC6C7F07CB0C9CA /* SplashUIController.swift */,
+				F069466856C662434250E33C /* SplashViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB41172A5AB42A13A96CBD7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F595B68C5CE65F769CE5F041 /* AddTaskScreen */,
+				03F45299AAE011E1B860D69B /* Custom */,
+				A922C8F461E626DBC58C7A37 /* Dashboard */,
+				FAFA0DED81B0FA53BF64943A /* Enrollment */,
+				6CF9A2C9C1F55924289BF803 /* Home */,
+				C7CFF5F08C481D1AA3C5C90B /* Settings */,
+				584EA6C0AFB7914CEE092578 /* Splash */,
+				026D819A410A37F96C5E8F4D /* TabBar */,
+				1571BAF8C0E1B57C4DA1F0DA /* TaskDetailScreen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0E108C2E5C4D0C12BA5BEE9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B243D6E6F8D4259193FD675B /* Extensions */,
+				91BAF24B46D356422D34BF3B /* HelperClasses */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E4ABB38B0AB13BBE07AD320C /* FloatingAddTaskButton */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D5B280BA9237BD35C9460 /* FloatingAddTaskButton.swift */,
+			);
+			path = FloatingAddTaskButton;
+			sourceTree = "<group>";
+		};
+		EA078A5A51C43B90974B1394 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				DD619D017CAE0A5360F4000A /* TaskListCVC.swift */,
+				9F187FE8CC4EA72640CCFB17 /* TaskListPlacheholder.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		F0AB72340F1900A7FF7F56B8 /* AppManagers */ = {
+			isa = PBXGroup;
+			children = (
+				60F6A395EA16B11F5002306C /* CoreDataManager.swift */,
+				F5167412B24302A32DA78FC3 /* EnrollemntManager.swift */,
+				2FCD29D2A46FA87040EE0F4E /* TaskManager.swift */,
+				EA6A544A3F8EB495CD415227 /* UserManager.swift */,
+			);
+			path = AppManagers;
+			sourceTree = "<group>";
+		};
+		F595B68C5CE65F769CE5F041 /* AddTaskScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4B0EA87E83E98BDD39187 /* Controllers */,
+				62600B95307FA48826D5A75E /* Subviews */,
+			);
+			path = AddTaskScreen;
+			sourceTree = "<group>";
+		};
+		FAFA0DED81B0FA53BF64943A /* Enrollment */ = {
+			isa = PBXGroup;
+			children = (
+				021ED3A03452051FACEC5BAC /* Login */,
+				2B1B4281B0ACCC0596B66FE6 /* Signup */,
+			);
+			path = Enrollment;
+			sourceTree = "<group>";
+		};
+		FD6A8CBE8F19718038A58811 /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				7687280716559EA54BA6DE53 /* AddTaskViewModel.swift */,
+			);
+			path = AddTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A4D3944FD19F65E51A41C85 /* ReminderBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B3F64DCF55BE5C83FD879A /* Build configuration list for PBXNativeTarget "ReminderBuddyUITests" */;
+			buildPhases = (
+				09AA68249EBB036CB775DDD9 /* [CP] Check Pods Manifest.lock */,
+				B8C82259058DBDFD70F386AE /* Sources */,
+				56F8F899760114D508FACF4E /* Frameworks */,
+				1C17A240FD0DD97DF7DBC36C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E723CDEFED4BD7D233EB4F9 /* PBXTargetDependency */,
+			);
+			name = ReminderBuddyUITests;
+			productName = ReminderBuddyUITests;
+			productReference = 057834BC558AA46E98CC58A2 /* ReminderBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		698FDD2D95ED87FC74FF3D80 /* ReminderBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8335F7AA75D6AE9C296C6773 /* Build configuration list for PBXNativeTarget "ReminderBuddy" */;
+			buildPhases = (
+				0C2A5C32AD5CD2C8F1D8959B /* [CP] Check Pods Manifest.lock */,
+				FEC6D20DA6A879E4E742B4E1 /* Sources */,
+				30A4A38A6051A62A4D784173 /* Resources */,
+				630D2BE15A5421C18FC583DD /* Run Script */,
+				1330AABA2108B794BD1C4E96 /* Frameworks */,
+				F60DCFF46610C8D232B6B9CE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReminderBuddy;
+			productName = ReminderBuddy;
+			productReference = 39ED91AA342A7DD5584AE5BD /* ReminderBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B593AA6150CEED8F4FE2E161 /* ReminderBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F0735D9F94AC16BE9F14BC /* Build configuration list for PBXNativeTarget "ReminderBuddyTests" */;
+			buildPhases = (
+				3BF9A1A639979B03087BA64F /* [CP] Check Pods Manifest.lock */,
+				003F5BCD3E0D18DA18F54B93 /* Sources */,
+				6E7B41C2014886216BA56976 /* Frameworks */,
+				D2D16ADABF36B6959C6D8A1B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730D3051692932C3519E53B8 /* PBXTargetDependency */,
+			);
+			name = ReminderBuddyTests;
+			productName = ReminderBuddyTests;
+			productReference = E33179BF753FA26F884BE8A3 /* ReminderBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F6E791E2FF8A83D65FCBB4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2A4D3944FD19F65E51A41C85 = {
+						TestTargetID = 698FDD2D95ED87FC74FF3D80;
+					};
+				};
+			};
+			buildConfigurationList = 59A808F87C85940F711C15E0 /* Build configuration list for PBXProject "ReminderBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"fr-CA",
+			);
+			mainGroup = 5E5C7792344FD7C062F32280;
+			productRefGroup = 595D9B7E8CB9CD8F901648A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				698FDD2D95ED87FC74FF3D80 /* ReminderBuddy */,
+				B593AA6150CEED8F4FE2E161 /* ReminderBuddyTests */,
+				2A4D3944FD19F65E51A41C85 /* ReminderBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30A4A38A6051A62A4D784173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B6FE49D0CD65EC74775FDE /* Assets.xcassets in Resources */,
+				EB0D35D9ADAFCFC4AE8DD329 /* ColorAssets.xcassets in Resources */,
+				FAA4E92E03D38F401E321DCD /* GoogleService-Info.plist in Resources */,
+				62A6E18CCB0C24A01BB047DE /* LaunchScreen.storyboard in Resources */,
+				68C087357B6FEBDF9B1F82A8 /* Localizable.strings in Resources */,
+				84E9F2FBC1F5E151962A5ABD /* Poppins-Black.ttf in Resources */,
+				CAE1A8C8A259EE5B36C41E3C /* Poppins-Bold.ttf in Resources */,
+				40C346AB4125B7CB858EE7DB /* Poppins-ExtraBold.ttf in Resources */,
+				00F8F8FA6DB433E6AACEE85B /* Poppins-Medium.ttf in Resources */,
+				A9D840FB77251A98A6AE71C4 /* Poppins-Regular.ttf in Resources */,
+				4FF2069851F0460E397C22F7 /* Poppins-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09AA68249EBB036CB775DDD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReminderBuddy-ReminderBuddyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C2A5C32AD5CD2C8F1D8959B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReminderBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C17A240FD0DD97DF7DBC36C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReminderBuddy-ReminderBuddyUITests/Pods-ReminderBuddy-ReminderBuddyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReminderBuddy-ReminderBuddyUITests/Pods-ReminderBuddy-ReminderBuddyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReminderBuddy-ReminderBuddyUITests/Pods-ReminderBuddy-ReminderBuddyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF9A1A639979B03087BA64F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReminderBuddy-ReminderBuddyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		630D2BE15A5421C18FC583DD /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $SRCROOT\necho \"POST BUILT SCRIPT\"\n$PODS_ROOT/FirebaseCrashlytics/run\n/opt/homebrew/bin/swiftgen\n";
+		};
+		D2D16ADABF36B6959C6D8A1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReminderBuddy-ReminderBuddyTests/Pods-ReminderBuddy-ReminderBuddyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReminderBuddy-ReminderBuddyTests/Pods-ReminderBuddy-ReminderBuddyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReminderBuddy-ReminderBuddyTests/Pods-ReminderBuddy-ReminderBuddyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60DCFF46610C8D232B6B9CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReminderBuddy/Pods-ReminderBuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReminderBuddy/Pods-ReminderBuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReminderBuddy/Pods-ReminderBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003F5BCD3E0D18DA18F54B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6C3491972544E6794865AE /* ReminderBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C82259058DBDFD70F386AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6A3F76986857E9F5A73761 /* ReminderBuddyUITests.swift in Sources */,
+				43656872A672C982EC32860B /* ReminderBuddyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC6D20DA6A879E4E742B4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E42562A3F56E77E4814BAF /* AddDateCVC.swift in Sources */,
+				FDFA22F94CD8611756B5D970 /* AddLocationCVC.swift in Sources */,
+				D59C96518C2F9CF327F62AE2 /* AddPriorityCVC.swift in Sources */,
+				6A710489FD32B0FD969A79B4 /* AddStateCVC.swift in Sources */,
+				F9CBCC231D8617B6244CE071 /* AddTaskBottomView.swift in Sources */,
+				9573A0E466D9412D4F454A7F /* AddTaskDataSource.swift in Sources */,
+				51603387ED00883805FF0143 /* AddTaskTitleAndDescriptionCVC.swift in Sources */,
+				B38DEDB124B04E0F5618273E /* AddTaskUIController.swift in Sources */,
+				431E0244191B9CF1DD1B8C31 /* AddTaskViewController.swift in Sources */,
+				6B40800636892519016B0F32 /* AddTaskViewModel.swift in Sources */,
+				416DA853B92087DFF5325289 /* AppButtons.swift in Sources */,
+				9AB2CAB2E3DA401505C6E12E /* AppCollectionView.swift in Sources */,
+				FD3DEBA050A389AC570D67CF /* AppDelegate.swift in Sources */,
+				C010ABC7EAAC445E9074C738 /* AppHeader.swift in Sources */,
+				7E7BCAD9452666AA2762AA47 /* AppNavigationDelegate.swift in Sources */,
+				485327C7E9C8672396F39B30 /* AppPrimaryTextField.swift in Sources */,
+				D0A0D3C12B8817D37BAB2139 /* AssetEnum.swift in Sources */,
+				94F571EAD1C7F7EC8CFA256E /* CoreDataEntity.xcdatamodeld in Sources */,
+				58B0BDE35E922FAE8EEA168A /* CoreDataManager.swift in Sources */,
+				CAD9666E2CC80FE77A42793F /* DashboardDatasoucre.swift in Sources */,
+				C70ACE99598D79E40B013860 /* DashboardTaskStatusCVC.swift in Sources */,
+				595D97A1B4FAC1C0AC13E854 /* DashboardUIController.swift in Sources */,
+				5D5FDCDCD89227C0C58E2493 /* DashboardViewController.swift in Sources */,
+				A74D01BB88CAE14F5119F594 /* DashboardViewModel.swift in Sources */,
+				6163B7B5A5C35C5CCC965411 /* Date+Extension.swift in Sources */,
+				CA1350A8AE7F4CDB5E9CDF78 /* EnrollemntManager.swift in Sources */,
+				E74D6DE3EF2564A4DA2EF62E /* ErrorDisplay.swift in Sources */,
+				6CEB673AB76BFD4B8A80C770 /* FloatingAddTaskButton.swift in Sources */,
+				3681015AB8ADD231282800DE /* HapticEngine.swift in Sources */,
+				D17BC7014B0619997DED0472 /* HomeDataSource.swift in Sources */,
+				160283BD6569D5D1183E9552 /* HomeUIController.swift in Sources */,
+				254FDC9CE4CBCBE19F8EA744 /* HomeViewController.swift in Sources */,
+				E340944027974B57EC496AE8 /* HomeViewModel.swift in Sources */,
+				33FBA4A30ED9C0F2B4CFF1AC /* LocalizableStrings.swift in Sources */,
+				42436E5AA73165373D456D8E /* LoginViewController.swift in Sources */,
+				C26DBE9C674EE59FF8875816 /* LoginViewModel.swift in Sources */,
+				D3269D6994D2ACD0C97F5137 /* MapViewController.swift in Sources */,
+				9A0EF67515A0244B89B11A24 /* NotificationView.swift in Sources */,
+				C33A839AC2227FA60FDEA536 /* Paginator.swift in Sources */,
+				1B307EFEBD29D2C974B2C6C0 /* PrefixOperator.swift in Sources */,
+				5493BED04A25F42606C46197 /* PushNotificationDelegate.swift in Sources */,
+				C034EC5C40DF3FF45DAD64B5 /* SettingsViewController.swift in Sources */,
+				315828EBFA1E2576DB814C26 /* SignupViewController.swift in Sources */,
+				F96C3E58C43627742D6B5C3F /* SiignupViewModel.swift in Sources */,
+				EB60965889663CEF6E3ABF37 /* SplashImageView.swift in Sources */,
+				8A027D629AC49A7DBB9DC8B7 /* SplashUIController.swift in Sources */,
+				4B3D27F21E6A168A629C1909 /* SplashViewController.swift in Sources */,
+				EBE2C86B4DD2E5E3B41A21AB /* String+Extension.swift in Sources */,
+				DA44CEE3F7C59534A452B9D3 /* TabBarController.swift in Sources */,
+				A9FD0C6D7BBEB5F2F31B547D /* TabBarView.swift in Sources */,
+				769DC11C699DD064AE9A0491 /* TabItemView.swift in Sources */,
+				91BB4D35159BF9B19E4233EC /* TaskDetailBottomView.swift in Sources */,
+				BE14D61E9BBA851EC3DAA371 /* TaskDetailDataosurce.swift in Sources */,
+				320750438FE4304802440BE8 /* TaskDetailTitleAndDescpCVC.swift in Sources */,
+				6D7ED7656325EB97A45D9C4D /* TaskDetailUIController.swift in Sources */,
+				8B6297DC17664CA9D4952DD2 /* TaskDetailViewController.swift in Sources */,
+				3FCA0C5C6AEAF8147E7E259B /* TaskDetailViewModel.swift in Sources */,
+				FBEBD5A61DE5E7143B36B031 /* TaskListCVC.swift in Sources */,
+				9EDF8A15B8C516606B272A82 /* TaskListPlacheholder.swift in Sources */,
+				0117C552869C4D5D6B97CE30 /* TaskManager.swift in Sources */,
+				236DA987991D56DA86739CAF /* TextFieldInputValidator.swift in Sources */,
+				9A522EDE4D4D108B62A463C0 /* UIButton+Extension.swift in Sources */,
+				39C8FDA61C15EEB0729210F7 /* UICollectionView+Extension.swift in Sources */,
+				CD104C46DCFA9C8768092ACE /* UIFont+Extension.swift in Sources */,
+				A7063654FB90E04F53BC81F5 /* UIPlaceholderTextView.swift in Sources */,
+				2A2B5EABA8A00BAD2924919A /* UIView+Extension.swift in Sources */,
+				754BE57348A9BEC1180242FC /* UserDefault.swift in Sources */,
+				5173FF81F2ED28FB70AB23E5 /* UserManager.swift in Sources */,
+				79A282AAA8B848D934627E14 /* UserTask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E723CDEFED4BD7D233EB4F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 698FDD2D95ED87FC74FF3D80 /* ReminderBuddy */;
+			targetProxy = 42DA027556E1A2DA85746E41 /* PBXContainerItemProxy */;
+		};
+		730D3051692932C3519E53B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 698FDD2D95ED87FC74FF3D80 /* ReminderBuddy */;
+			targetProxy = D4DDC4CF30912CBD3A62940F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A83C36FF27FCCE2495889F0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0FAF4388CC86A77055916AC /* en */,
+				35998BAD192ED97A413979FE /* fr-CA */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75717EAA84CB2AE7F7EEE214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LAUNCH_SCREEN_STORYBOARD_NAME = Splash.storyboard;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenscorp.ReminderBuddy;
+				PRODUCT_NAME = ReminderBuddy;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		78E0018D2C1520B656199218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LAUNCH_SCREEN_STORYBOARD_NAME = Splash.storyboard;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenscorp.ReminderBuddy;
+				PRODUCT_NAME = ReminderBuddy;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A03EF8E699C88EF32520D845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52AC81E8ADA5D03D5216BEB /* Pods-ReminderBuddy-ReminderBuddyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenscorp.ReminderBuddyTests;
+				PRODUCT_NAME = ReminderBuddyTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReminderBuddy.app/ReminderBuddy";
+			};
+			name = Release;
+		};
+		A5CE0F66C537B6F387D60BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA6F0BBC8E3F1543390030C /* Pods-ReminderBuddy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ReminderBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LAUNCH_SCREEN_STORYBOARD_NAME = Splash.storyboard;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenscorp.ReminderBuddy;
+				PRODUCT_NAME = ReminderBuddy;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4381E71135EEF31EE8AA89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF0C821B11570F263243122 /* Pods-ReminderBuddy-ReminderBuddyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenscorp.ReminderBuddyTests;
+				PRODUCT_NAME = ReminderBuddyTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReminderBuddy.app/ReminderBuddy";
+			};
+			name = Debug;
+		};
+		C8078835F653351869DF5620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3368A1F2EEDB2BFD085B22 /* Pods-ReminderBuddy-ReminderBuddyUITests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenscorp.ReminderBuddyUITests;
+				PRODUCT_NAME = ReminderBuddyUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReminderBuddy;
+			};
+			name = Release;
+		};
+		EA0D56298C5EBE5CB04745F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4DDFB8245D14C7D13A1FA6 /* Pods-ReminderBuddy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ReminderBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LAUNCH_SCREEN_STORYBOARD_NAME = Splash.storyboard;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenscorp.ReminderBuddy;
+				PRODUCT_NAME = ReminderBuddy;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAFB23C8717353005B0944A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA9FECDF9ED35F4A4964369 /* Pods-ReminderBuddy-ReminderBuddyUITests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenscorp.ReminderBuddyUITests;
+				PRODUCT_NAME = ReminderBuddyUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReminderBuddy;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59A808F87C85940F711C15E0 /* Build configuration list for PBXProject "ReminderBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E0018D2C1520B656199218 /* Debug */,
+				75717EAA84CB2AE7F7EEE214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		63F0735D9F94AC16BE9F14BC /* Build configuration list for PBXNativeTarget "ReminderBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4381E71135EEF31EE8AA89D /* Debug */,
+				A03EF8E699C88EF32520D845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8335F7AA75D6AE9C296C6773 /* Build configuration list for PBXNativeTarget "ReminderBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0D56298C5EBE5CB04745F1 /* Debug */,
+				A5CE0F66C537B6F387D60BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9B3F64DCF55BE5C83FD879A /* Build configuration list for PBXNativeTarget "ReminderBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFB23C8717353005B0944A0 /* Debug */,
+				C8078835F653351869DF5620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		739061E4EEBB2EA75C7E9C0C /* CoreDataEntity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47D73F3F2F616256EFFAA23B /* ReminderBuddy.xcdatamodel */,
+			);
+			currentVersion = 47D73F3F2F616256EFFAA23B /* ReminderBuddy.xcdatamodel */;
+			path = CoreDataEntity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F6E791E2FF8A83D65FCBB4B /* Project object */;
+}
